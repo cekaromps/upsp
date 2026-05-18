@@ -73,7 +73,7 @@ export default function ItemEstimator({
 
   const total = totalPrice(materialCost, processCost, Number(qty));
 
-  const salePrice = total * 1.3;
+  const salePrice = total * 1.5;
 
   const idr = salePrice * 13758;
 
